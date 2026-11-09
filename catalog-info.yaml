@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-python-service
+  description: A simple Python Flask microservice generated with Backstage Scaffolder.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: platform-team
+  system: platform-engineering
